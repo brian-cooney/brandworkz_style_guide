@@ -19,14 +19,21 @@ class Index extends React.Component {
           <IndexHeadContainer>
             <Navigation />
             <Hero>
-              <img src={config.siteLogo} width='150px' />
+              <img src={config.siteLogo} width='300px' />
               <h1>{config.siteTitle}</h1>
               <h4>{config.siteDescription}</h4>
             </Hero>
           </IndexHeadContainer>
           <BodyContainer>
-            <h2>A Gatsby Template for Content</h2>
-            <p>Made for modern documentation sites. Table of Contents automatically generated from markdown files. </p>
+            <h2>All about Brandwokz UI pattern library</h2>
+            <p>By documenting and assembling a reference site of our patterns, we can speed up our process and solve some internal communication problems.</p>
+            <p>To me, a style guide is a living document of code, which details all the various
+               elements and coded modules of your site or application. Beyond its use in consolidating
+               the front-end code, it also documents the visual language, such as header styles and
+               color palettes, used to create the site. This way, it’s a one-stop place for the entire
+               team—from product owners and producers to designers and developers—to reference when
+               discussing site changes and iterations. Several companies have even put their guides online;
+               Starbucks is the most well known of the bunch, but others exist.</p>
             <CtaButton to={'/lesson-one'}>See Your First Post</CtaButton>
           </BodyContainer>
         </main>
